@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    margin-top: 20px;
+}
+.nav{
+    display: flex;
+}
+li{
+    list-style-type: none;
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin-left: 30px;
+}
+
+#link1{
+    margin-left: 1200px;
+}
+
+#image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.google-img{
+    width: 300px;
+    height: auto;
+    padding-left: 0px;    
+}
+.search{
+    border: 0;
+}
+#search-id{
+    
+    border: 0;
+    width: 470px;
+    height: 40px;
+    padding-top: 0px;
+    padding-left: 20px;
+
+}
+.Search-Bar{
+    margin-top: 30px;
+    margin-left: 400px;
+    width: 560px;
+    height: 43px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+::placeholder{
+    color: rgb(119, 112, 112);
+
+}
+.search-icon{
+    width: 15px;
+    padding-top: 12px;
+    padding-left: 10px;
+
+}
+input:focus{
+    outline: none;
+}
+.mic{
+    width: 30px;
+    padding-left: 15px;
+    padding-top: 7px;
+    
+}
+
+.recent-icon{
+    display: flex;
+    align-content: center;
+    margin-left: 430px;
+}
+.box{
+    margin: 35px 25px;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.recent-search{
+    display: flex;
+    align-items: center;
+}
+.text{
+    margin-left: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+p{
+    margin-top: 6px;
+    font-weight:bolder;
+    margin-left: 8px;
+    color: whitesmoke;
+}
+.box1{
+    background-color: gray;
+}
+.box2{
+    background-color: maroon;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: darkkhaki;
+}
+.paragraph{
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+.recent-search:hover{
+    background-color: lightblue;
+}
+
+.setting{
+    width: 45px;
+    margin-top: 95px;
+    height: 50px    ;
+    /* border: 2px solid red; */
+    border-radius: 50%;
+    margin-left: 1300px;
+ } 
+ .setting:hover{
+    background-color: lightblue;
+ }
+.pencile{
+    padding: 10px;
+    height: 25px;
+}
